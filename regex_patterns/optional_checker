@@ -1,0 +1,26 @@
+import re
+
+
+def find_batman_variant(text):
+    """
+    Finds 'Batman' or 'Batwoman' in the given text.
+    
+    Parameters:
+        text (str): The text to search.
+
+    Returns:
+        str: 'Batman' or 'Batwoman' if found, otherwise None.
+    """
+    bat_regex = re.compile(r'Bat(wo)?man')
+    match = bat_regex.search(text)
+    
+    if match:
+        print("Match found:", match.group())
+        return match.group()
+    else:
+        print("No match found.")
+        return None
+
+# Test cases
+find_batman_variant("The Adventures of Batman")      # Output: 'Batman'
+find_batman_variant("The Adventures of Batwoman")    # Output: 'Batwoman'
