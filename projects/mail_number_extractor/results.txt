@@ -1,0 +1,9 @@
+(415)-555-1234
+555-987-6543
+(212)-555-7890
+555-000-1111
+555-555-0199
+john.doe@example.com
+johndoe123@gmail.com
+support@company.com
+sales@example.org
