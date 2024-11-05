@@ -1,2 +1,3 @@
 projects/mail_number_extractor/filepaths.py
 projects/mail_number_extractor/__pycache__
+.vscode
